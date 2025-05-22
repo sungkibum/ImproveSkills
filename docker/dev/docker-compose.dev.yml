@@ -37,7 +37,7 @@ services:
     env_file:
       - ../.env.dev
     ports:
-      - "5000:5000/tcp"
+      - "5001:5000/tcp"
     volumes:
       - type: bind
         source: services/logstash/dev/logstash.conf
